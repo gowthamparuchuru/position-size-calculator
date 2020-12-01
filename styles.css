@@ -1,0 +1,60 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
+\\styles
+body{
+    margin: 0px;
+}
+.navbar-brand{
+    margin: 5px auto 5px;
+    font-size: 25px!important;
+}
+.navbar{
+    text-align: center!important;
+}
+label,input{
+    display: inline!important;
+    /* margin: auto -3px !important; */
+    font-weight: 500;
+}
+input{
+    width: 250px!important;
+}
+.sub{
+    margin:30px auto 30px 500px;
+    
+}
+.top{
+    margin-top: 50px;
+}
+input:focus{
+    border-color: #bebebe!important;
+    box-shadow: 0 0 0 2px #bebebe !important;
+}
+.risk1{
+    margin-left: 61px;
+}
+.loss{
+    margin-left: 20px;
+}
+.units{
+    margin-left: 11px;
+}
+.or{
+    margin-left: -15px;
+}
+.symbols{
+    margin-left: -7px!important;
+    
+    font-size: 20px;
+}
